@@ -11,7 +11,7 @@ fi
 : "${CONTAINER_PORT:=1431}"
 
 : "${VOLUME_PATH:=../data}"
-: "${DB_NAME:=DB}"
+: "${DB_NAME:=defaultdb}"
 : "${DB_FILE:=DB.mdf}"
 : "${LOG_FILE:=DB_log.ldf}"
 
